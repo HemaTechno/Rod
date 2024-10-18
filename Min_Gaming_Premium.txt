@@ -122,7 +122,7 @@ function Update:Window(text,logo,keybind)
 	Hub.Position = UDim2.new(0, 086, 0, 0)
 	Hub.Size = UDim2.new(0, 81, 0, 27)
 	Hub.Font = Enum.Font.GothamSemibold
-	Hub.Text = "       h-script.site "
+	Hub.Text = "    h-script.site "
 	Hub.TextColor3 = Color3.fromRGB(255, 20, 0)
 	Hub.TextSize = 17.000
 	Hub.TextXAlignment = Enum.TextXAlignment.Left
@@ -756,7 +756,7 @@ end)
 			DropImage.Position = UDim2.new(0, 445, 0, 6)
 			DropImage.Rotation = 180.000
 			DropImage.Size = UDim2.new(0, 20, 0, 20)
-			DropImage.Image = "rbxassetid://5012539403"
+			DropImage.Image = "rbxassetid://71346418808423"
 			
 			DropButton.Name = "DropButton"
 			DropButton.Parent = Dropdown
@@ -11811,7 +11811,7 @@ M:Button("Show Items", function()
     for k, v in pairs(cac) do
         if ListHuhu[v] and game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Buy" .. v, true) == 1 then
             local huhu = Instance.new("ImageLabel", MeleeG)
-            huhu.Image = "rbxassetid://9945562382"
+            huhu.Image = "rbxassetid://71346418808423"
             huhu.ImageRectSize = Vector2.new(100, 100)
             huhu.ImageRectOffset = ListHuhu[v] * 100
         end
@@ -11906,7 +11906,7 @@ function InfAbility()
             inf.Rotation = NumberRange.new(0, 0)
             inf.Speed = NumberRange.new(30, 30)
             inf.SpreadAngle = Vector2.new(360, 360)
-            inf.Texture = "rbxassetid://243098098"
+            inf.Texture = "rbxassetid://71346418808423"
             inf.VelocityInheritance = 0
             inf.ZOffset = 2
             inf.Transparency = NumberSequence.new(0)
